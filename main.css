@@ -1,0 +1,85 @@
+body {
+    color: #252934;
+    font-size: 1em;
+    font-weight: 300;
+    line-height: 1.5;
+    font-family: "europa", sans-serif;
+  }
+
+:root{
+    --pseudo-color: #8c52ff;
+    }
+
+#user_Input {
+    border: #252934 solid 3px;
+    border-radius: 5px;
+    padding: 5px;
+    min-width: 70%;
+}
+
+#add_Li {
+	border: none;
+	padding: 10px 15px;
+	border-radius: 5px;
+	color: #bebebe;
+	background-color: #252934;
+	transition: all 0.75s ease;
+	-webkit-transition: all 0.75s ease;
+	-moz-transition: all 0.75s ease;
+	-ms-transition: all 0.75s ease;
+	-o-transition: all 0.75 ease;
+}
+
+#add_Li:hover{
+	background-color: #464b5a;
+	color: var(--pseudo-color);
+}
+
+.intro_tdl {
+    border: 2px var(--pseudo-color) solid;
+    border-radius: 5px;
+    background-color: #252934;
+    padding: 5px;
+    color: #fff;
+}
+
+.subIntro_tdl {
+    border: 2px #252934 solid;
+    border-radius: 5px;
+    background-color: var(--pseudo-color);
+    padding: 5px;
+    color: #fff;
+}
+
+.tdl_ListItem {
+    list-style-type: none;
+    border: 2px var(--pseudo-color) solid;
+    border-radius: 5px;
+    background-color: #252934;
+    padding: 10px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.tdl_ListItem > button {
+    font-weight: normal;
+	background: none;
+	border: none;
+	float: right;
+	color: #ffffff;
+	font-weight: 700;
+}
+
+.done {
+    list-style-type: none;
+    border: 2px #252934 solid;
+    border-radius: 5px;
+    background-color: var(--pseudo-color);
+    padding: 10px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.delete {
+    display: none;
+}
