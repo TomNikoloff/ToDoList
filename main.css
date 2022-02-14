@@ -10,6 +10,13 @@ body {
     --pseudo-color: #8c52ff;
     }
 
+.rotate:hover
+{
+    -webkit-transform: rotateZ(-30deg);
+    -ms-transform: rotateZ(-30deg);
+    transform: rotateZ(-30deg);
+}
+
 #user_Input {
     border: #252934 solid 3px;
     border-radius: 5px;
