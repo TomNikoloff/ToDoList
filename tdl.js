@@ -42,12 +42,3 @@ function addAfterClick() {
 
 addList.addEventListener('click', addAfterClick);
 
-//Function below checks if the 'enter'/ 'return' key is press when using the input tag.
-//13 = keycode for the key.
-function addAfterKeypress(event) {
-	if (inputLength() > 0 && event.which ===13) {
-		createListElement();
-	} 
-}
-
-input.addEventListener("keypress", addAfterKeypress);
